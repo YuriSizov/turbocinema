@@ -1,0 +1,7 @@
+html.turbopage {
+  height: 100%
+}
+
+html.turbopage > body {
+  padding: 0;
+}

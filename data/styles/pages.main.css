@@ -1,0 +1,167 @@
+html.turbopage {
+  background-color: black;
+  color: #C9CAD0;
+  font-size: 14px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+html.turbopage > body {
+  background: #1A1819 url(../imgs/turbofilm/bodyback.jpg) top center no-repeat;
+  margin: 0;
+  padding: 0 0 30px 0;
+  width: 100%;
+}
+
+html.turbopage a {
+  color: #309FCA;
+  cursor: pointer;
+  padding: 1px 1px 0;
+  text-decoration: underline;
+}
+html.turbopage a:hover {
+  background-color: #40404D;
+  border-radius: 3px 3px;
+  text-decoration: none;
+}
+
+html.turbopage div.everything {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+html.turbopage div.everything div.topping {
+  height: 4px;
+}
+
+html.turbopage div.everything div.content {
+  background-color: black;
+  border-radius: 16px 16px;
+  margin: 10px 0;
+  padding: 20px 25px 0 25px;
+}
+
+html.turbopage div.everything div.content h1 {
+  font-size: 22px;
+  margin: 0 0 14px 0;
+}
+html.turbopage div.everything div.content h1 span.content_title {
+  color: #0387B4;
+  font-size: 22px;
+}
+html.turbopage div.everything div.content h1 span.content_subtitle {
+  color: #C9CAD0;
+  font-size: 15px;
+  padding-left: 12px;
+}
+
+html.turbopage div.everything div.content h3 {
+  color: #BBC97D;
+  font-size: 20px;
+  margin: 12px 0 6px 0;
+}
+
+html.turbopage div.everything div.content div.list-item {
+  background: #323235;
+  border: 1px solid #A1A0A3;
+  border-radius: 4px 4px;
+  margin: 9px 0;
+  padding: 6px;
+}
+html.turbopage div.everything div.content div.list-item.sub1 {
+  margin-left: 40px;
+}
+html.turbopage div.everything div.content div.list-item.sub2 {
+  margin-left: 80px;
+}
+html.turbopage div.everything div.content div.list-item.sub3 {
+  margin-left: 120px;
+}
+
+html.turbopage div.everything div.content div.list-item a.list-item-title {
+  color: #C9CAD0;
+  font-size: 14px;
+}
+
+html.turbopage div.everything div.content div.list-item label > span.list-item-title {
+  cursor: pointer;
+}
+
+html.turbopage div.everything div.content div.list-item a.list-item-link {
+  padding: 1px 4px 0;
+  font-size: 16px;
+}
+
+html.turbopage div.everything div.content div.list-item p.list-item-desc {
+  color: #999a90;
+  font-size: 12px;
+  margin: 2px 0;
+  padding-left: 3px;
+}
+
+html.turbopage div.everything div.content div.list-item .list-item-input {
+  margin-right: 6px;
+}
+
+html.turbopage div.everything div.content span.action {
+  border-bottom: #C1C0C5 1px dashed;
+  color: #C1C0C5;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 10px 10px 0;
+}
+
+html.turbopage div.everything div.content span.action:hover {
+  border-bottom: none;
+}
+
+html.turbopage div.everything div.content div.action_block {
+  min-height: 22px;
+  margin-bottom: 20px;
+}
+
+html.turbopage div.everything div.content div.action_block div.action_status {
+  background-color: #121603;
+  border: 1px solid #90AA3F;
+  border-radius: 4px;
+  display: none;
+  float: right;
+  height: 20px;
+  padding: 0 12px;
+}
+
+
+#tcm_context_menu {
+  background: #232327;
+  border: 2px groove #0387B4;
+  border-radius: 3px;
+  box-shadow: rgba(5, 5, 5, 0.6) 2px 2px 3px;
+  color: #E8EAEC;
+  display: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  position: absolute;
+  min-height: 20px;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+#tcm_context_menu .context_item {
+  cursor: default;
+  height: 20px;
+  min-width: 150px;
+  padding: 5px 2px 0 5px;
+  vertical-align: top;
+}
+#tcm_context_menu .context_item:hover {
+  background-color: #424246;
+}
+
+#tcm_context_menu .context_item .context_item_icon {
+  background-position: 100% 0%;
+  float: right;
+  height: 18px;
+  width: 18px;
+}
+#tcm_context_menu .context_item:hover .context_item_icon {
+  background-position: 0% 0%;
+}

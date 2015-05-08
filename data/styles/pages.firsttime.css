@@ -1,0 +1,114 @@
+body {
+  background-color: #1a1819;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.content > .content_topper {
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 920px;
+}
+
+.content > .content_topper > .content_title {
+  color: #0387B4;
+  font-size: 22px;
+}
+
+.content > .content_topper > .firsttime_guidence_message {
+  color: #cacaca;
+  font-size: 14px;
+}
+
+.content > .content_topper > .firsttime_restore {
+  border: 1px solid #463E2B;
+  border-radius: 4px 4px;
+  color: #C7B585;
+  cursor: pointer;
+  padding: 4px 8px;
+  margin: 10px 6px;
+}
+.content > .content_topper > .firsttime_restore:hover {
+  color: #EEDCAC;
+}
+
+.content > .content_main > .preset_block {
+  background-color: #303233;
+  border: 3px solid #252728;
+  border-radius: 3px;
+  margin: 25px auto;
+  height: 190px;
+  width: 920px;
+}
+.content > .content_main > .preset_block:hover {
+  border-color: #0e91dd;
+  cursor: pointer;
+}
+
+.content > .content_main > .preset_block > .preset_texts {
+  float: left;
+  width: 322px;
+}
+
+.content > .content_main > .preset_block > .preset_texts > .preset_title {
+  background-color: rgba(26, 24, 25, 0.70);
+  color: white;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  height: 32px;
+  margin: 0;
+  padding: 4px 6px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content > .content_main > .preset_block > .preset_texts > .preset_bulletpoints {
+  color: #8ccf18;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 8px 16px;
+  text-shadow: rgba(0, 0, 0, 0.43) 2px 2px 3px;
+}
+.content > .content_main > .preset_block > .preset_texts > .preset_bulletpoints > li {
+  padding: 4px 0;
+}
+
+.content > .content_main > .preset_block > .preset_imgs {
+  float: left;
+  width: 460px;
+}
+
+.content > .content_main > .preset_block > .preset_imgs > .preset_img {
+  height: 190px;
+  width: 460px;
+}
+
+.content > .content_main > .preset_block > .preset_checker {
+  background-image: url('../imgs/firsttime/checker.png');
+  background-position: 0 0;
+  float: left;
+  height: 190px;
+  width: 138px;
+}
+.content > .content_main > .preset_block.preset_added > .preset_checker {
+  background-position: 100% 0;
+}
+
+.content > .content_footer {
+  min-height: 22px;
+  margin: 0 auto 20px auto;
+  width: 920px;
+}
+
+.content > .content_footer > .action {
+  border-bottom: 1px dashed #c1c0c5;
+  color: #c1c0c5;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 10px 10px 0;
+}
+
+.content > .content_footer > .action:hover {
+  border-color: transparent;
+}

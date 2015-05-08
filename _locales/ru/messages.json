@@ -1,0 +1,575 @@
+{
+  "extension_name" : {
+   "message" : "Турбофильм: Режим кинотеатра"
+  },
+  "extension_shortname" : {
+    "message" : "TCM"
+  },
+  "extension_description" : {
+    "message" : "Всё для твоего удовольствия! В меню — субтитры и плейлисты, продвинутые блоги и уведомления!"
+  },
+
+  "popup_button" : {
+    "message" : "Турбопульт"
+  },
+  "popup_title" : {
+    "message" : "Меню"
+  },
+
+  "popup_icon_settings" : {
+    "message" : "Настройки"
+  },
+  "popup_icon_feedback" : {
+    "message" : "Обсуждение и поддержка"
+  },
+  "popup_icon_lists" : {
+    "message" : "Плейлисты и избранное"
+  },
+
+  "popup_item_main_title" : {
+    "message" : "Главная"
+  },
+  "popup_item_main_description" : {
+    "message" : "Новые сериалы и эпизоды, календарь выхода, рейтинг популярности"
+  },
+
+  "popup_item_series_title" : {
+    "message" : "Сериалы"
+  },
+  "popup_item_series_description" : {
+    "message" : "Список всех доступных сериалов"
+  },
+
+  "popup_item_blog_title" : {
+    "message" : "Блоги сериалов"
+  },
+  "popup_item_blog_description" : {
+    "message" : "Сообщения, посвящённые сериалам, комментарии к эпизодам"
+  },
+
+  "popup_item_tlog_title" : {
+    "message" : "Турбоблог"
+  },
+  "popup_item_tlog_description" : {
+    "message" : "Сообщения о развитии ресурса, найденных ошибках и всём прочем"
+  },
+
+  "popup_item_my_title" : {
+    "message" : "Личный кабинет"
+  },
+  "popup_item_my_description" : {
+    "message" : "Управление профилем, балансом, приглашениями, информация о последней активности"
+  },
+
+  "popup_item_mymessages_title" : {
+    "message" : "Мои сообщения"
+  },
+  "popup_item_mymessages_description" : {
+    "message" : "Личная переписка с другими пользователями"
+  },
+
+  "popup_item_myseries_title" : {
+    "message" : "Мои сериалы"
+  },
+  "popup_item_myseries_description" : {
+    "message" : "Непросмотренные эпизоды любимых сериалов"
+  },
+
+  "badge_unseen" : {
+    "message" : "Непросмотренные серии"
+  },
+  "badge_messages" : {
+    "message" : "Личные сообщения"
+  },
+  "badge_days" : {
+    "message" : "Дней на счету"
+  },
+
+  "notification_title" : {
+    "message" : "Турбофильм: Режим кинотеатра"
+  },
+  
+  "notification_unseen" : {
+    "message" : "Отвлекись, у тебя ещё $amount$ $word$!",
+    "placeholders" : {
+      "amount" : { "content" : "$1" },
+      "word" : { "content" : "$2" }
+    }
+  },
+  "notification_unseen_words_1" : {
+    "message" : "серия непросмотрена"
+  },
+  "notification_unseen_words_2" : {
+    "message" : "серии непросмотрены"
+  },
+  "notification_unseen_words_5" : {
+    "message" : "серий непросмотрено"
+  },
+  "notification_unseen_button" : {
+    "message" : "Перейти к «Моим сериалам»"
+  },
+
+  "notification_messages" : {
+    "message" : "Кстати, тебе тут написали $amount$ $word$. Что будешь делать?",
+    "placeholders" : {
+      "amount" : { "content" : "$1" },
+      "word" : { "content" : "$2" }
+    }
+  },
+  "notification_messages_words_1" : {
+    "message" : "личное сообщение"
+  },
+  "notification_messages_words_2" : {
+    "message" : "личных сообщения"
+  },
+  "notification_messages_words_5" : {
+    "message" : "личных сообщений"
+  },
+  "notification_messages_button" : {
+    "message" : "Перейти к «Моим сообщениям»"
+  },
+
+  "notification_days" : {
+    "message" : "Берегись! У тебя на счету — $amount$ $word$!",
+    "placeholders" : {
+      "amount" : { "content" : "$1" },
+      "word" : { "content" : "$2" }
+    }
+  },
+  "notification_days_words_1" : {
+    "message" : "день"
+  },
+  "notification_days_words_2" : {
+    "message" : "дня"
+  },
+  "notification_days_words_5" : {
+    "message" : "дней"
+  },
+  "notification_days_button" : {
+    "message" : "Перейти в профиль"
+  },
+
+
+  "lists_title" : {
+    "message" : "Плейлисты и избранное"
+  },
+
+  "lists_update_success_status" : {
+    "message" : "Плейлист обновлён!"
+  },
+  "lists_update_failure_status" : {
+    "message" : "Обновить плейлист не удалось!"
+  },
+
+  "lists_destroy_success_status" : {
+    "message" : "Плейлист удалён!"
+  },
+  "lists_destroy_failure_status" : {
+    "message" : "Удалить плейлист не удалось!"
+  },
+
+  "lists_action_create" : {
+    "message" : "Создать новый плейлист"
+  },
+  "lists_action_create_prompt" : {
+    "message" : "Название нового плейлиста"
+  },
+
+  "lists_action_create_success_status" : {
+    "message" : "Плейлист создан!"
+  },
+  "lists_action_create_failure_status" : {
+    "message" : "Создать плейлист не удалось!"
+  },
+
+  "lists_failure_reason_101" : {
+    "message" : "Недостаточно данных"
+  },
+  "lists_failure_reason_102" : {
+    "message" : "Плейлист не существует"
+  },
+  "lists_failure_reason_103" : {
+    "message" : "Плейлист уже существует"
+  },
+  "lists_failure_reason_104" : {
+    "message" : "Некорректная информация об эпизоде"
+  },
+  "lists_failure_reason_105" : {
+    "message" : "Невозможно удалить базовый плейлист"
+  },
+  "lists_failure_reason_106" : {
+    "message" : "Эпизод уже в плейлисте"
+  },
+  "lists_failure_reason_107" : {
+    "message" : "Эпизод отсутствует в плейлисте"
+  },
+  "lists_failure_reason_108" : {
+    "message" : "Плейлист переполнен (не более 10 эпизодов)"
+  },
+
+  "lists_playlist_empty" : {
+    "message" : "Пусто место"
+  },
+
+  "lists_playlist_action_emptify" : {
+    "message" : "Очистить список"
+  },
+  "lists_playlist_action_emptify_confirm" : {
+    "message" : "Точно очистить?"
+  },
+  "lists_playlist_action_destroy" : {
+    "message" : "Удалить плейлист"
+  },
+  "lists_playlist_action_destroy_confirm" : {
+    "message" : "Точно удалить?"
+  },
+
+  "lists_context_create" : {
+    "message" : "Создать новый..."
+  },
+  "lists_context_create_title" : {
+    "message" : "Создать новый плейлист и добавить в него эпизод"
+  },
+
+
+  "settings_title" : {
+    "message" : "Настройки"
+  },
+
+  "settings_action_save" : {
+    "message" : "Сохранить"
+  },
+  "settings_action_restore" : {
+    "message" : "Восстановить по умолчанию"
+  },
+  "settings_action_save_status" : {
+    "message" : "Настройки сохранены!"
+  },
+  "settings_action_restore_status" : {
+    "message" : "Настройки восстановлены!"
+  },
+
+  "settings_group_extension_title" : {
+    "message" : "Расширение"
+  },
+  "settings_group_watch_title" : {
+    "message" : "Просмотр"
+  },
+  "settings_group_blog_title" : {
+    "message" : "Блог"
+  },
+  "settings_group_turbosearch_title" : {
+    "message" : "Турбопоиск"
+  },
+  "settings_group_utils_title" : {
+    "message" : "Всяко-разно"
+  },
+
+
+  "settings_item_popup_enabled_title" : {
+    "message" : "Отображать Турбоменю, иначе переходить на главную страницу Турбофильм.тв"
+  },
+  "settings_item_popup_enabled_description" : {
+    "message" : "Выберите желаемое действие при клике на иконку на панели. Вступает в силу сразу"
+  },
+
+  "settings_item_checker_enabled_title" : {
+    "message" : "Периодически запрашивать число непросмотренных серий, личных сообщений и др."
+  },
+  "settings_item_checker_enabled_description" : {
+    "message" : "Увеличивает расход трафика. Вступает в силу сразу"
+  },
+
+  "settings_item_checker_updateInterval_title" : {
+    "message" : "Частота обновлений (в минутах)"
+  },
+  "settings_item_checker_updateInterval_description" : {
+    "message" : "От 1 минуты до 60 часов"
+  },
+
+  "settings_item_checker_showCounter_title" : {
+    "message" : "Отображаемые счётчики"
+  },
+  "settings_item_checker_showCounter_description" : {
+    "message" : "Счётчики, отображаемые поверх иконки на панели"
+  },
+  "settings_item_checker_showCounter_unseen_title" : {
+    "message" : "Количество непросмотренных серий (зелёный)"
+  },
+  "settings_item_checker_showCounter_messages_title" : {
+    "message" : "Непрочитанные личные сообщения (жёлтый)"
+  },
+  "settings_item_checker_showCounter_days_title" : {
+    "message" : "Критически малый остаток дней на счету (красный)"
+  },
+
+  "settings_item_checker_showNotification_title" : {
+    "message" : "Отображаемые уведомления"
+  },
+  "settings_item_checker_showNotification_description" : {
+    "message" : "Всплывающие уведомления, информирующие об изменениях счётчиков"
+  },
+  "settings_item_checker_showNotification_unseen_title" : {
+    "message" : "Количество непросмотренных серий"
+  },
+  "settings_item_checker_showNotification_messages_title" : {
+    "message" : "Непрочитанные личные сообщения"
+  },
+  "settings_item_checker_showNotification_days_title" : {
+    "message" : "Критически малый остаток дней на счету"
+  },
+
+  "settings_item_checker_daysThreshold_title" : {
+    "message" : "Пороговое значение для счётчика дней на счету"
+  },
+  "settings_item_checker_daysThreshold_description" : {
+    "message" : "От 1 до 365 дней"
+  },
+
+  "settings_item_inj_index_hideUnfavorable_title" : {
+    "message" : "Выделить любимые сериалы в календаре будущих серий"
+  },
+  "settings_item_inj_index_hideUnfavorable_description" : {
+    "message" : "Требуется перезагрузка страницы"
+  },
+
+  "settings_item_inj_myseries_futureReleases_title" : {
+    "message" : "Добавить будущие серии любимых сериалов на страницу «Мои сериалы»"
+  },
+  "settings_item_inj_myseries_futureReleases_description" : {
+    "message" : "Требуется перезагрузка страницы"
+  },
+
+  "settings_item_inj_allseries_info_title" : {
+    "message" : "Предоставлять дополнительные сведения о сериалах на странице «Все сериалы»"
+  },
+  "settings_item_inj_allseries_info_description" : {
+    "message" : "Требуется перезагрузка страницы"
+  },
+
+  "settings_item_inj_blog_enhanced_title" : {
+    "message" : "Включить улучшения для блога"
+  },
+  "settings_item_inj_blog_enhanced_description" : {
+    "message" : "Упрощает навигацию и написание комментариев на страницах «Блога сериалов», «Турбоблога» и «Моих сообщений»"
+  },
+  "settings_item_inj_blog_enhanced_navigation_title" : {
+    "message" : "Навигация по комментариям"
+  },
+  "settings_item_inj_blog_enhanced_navigation_description" : {
+    "message" : "Создаёт панель навигации для быстрого перемещения между комментариями"
+  },
+  "settings_item_inj_blog_enhanced_formatting_title" : {
+    "message" : "Формат комментариев"
+  },
+  "settings_item_inj_blog_enhanced_formatting_description" : {
+    "message" : "Применяет форматирование к комментариям, включая вставку гиперссылок, картинок и BB-кодов"
+  },
+  "settings_item_inj_blog_enhanced_editor_title" : {
+    "message" : "Ввод текста"
+  },
+  "settings_item_inj_blog_enhanced_editor_description" : {
+    "message" : "Улучшает процесс создания новых записей и комментариев"
+  },
+
+
+  "inj_blogpost_nav_all_title" : {
+    "message" : "Всего"
+  },
+  "inj_blogpost_nav_my_title" : {
+    "message" : "Мои"
+  },
+  "inj_blogpost_nav_new_title" : {
+    "message" : "Новые"
+  },
+  "inj_blogpost_nav_god_title" : {
+    "message" : "Редкие"
+  },
+
+
+  "settings_item_inj_watch_enhanced_title" : {
+    "message" : "Включить улучшения для плеера"
+  },
+  "settings_item_inj_watch_enhanced_description" : {
+    "message" : "Удобства для просмотра, использование своих субтитров, списков воспроизведения, и многое другое"
+  },
+
+  "settings_item_inj_watch_enhanced_hide_description_title" : {
+    "message" : "Скрыть описание"
+  },
+  "settings_item_inj_watch_enhanced_hide_description_description" : {
+    "message" : "Прячет описание серии за кнопку в правом верхнем меню"
+  },
+  "settings_item_inj_watch_enhanced_hide_comments_title" : {
+    "message" : "Скрыть комментарии"
+  },
+  "settings_item_inj_watch_enhanced_hide_comments_description" : {
+    "message" : "Прячет комментарии пользователей за кнопку в правом верхнем меню"
+  },
+  "settings_item_inj_watch_enhanced_hide_eplist_title" : {
+    "message" : "Скрыть список эпизодов"
+  },
+  "settings_item_inj_watch_enhanced_hide_eplist_description" : {
+    "message" : "Прячет список эпизодов сезона или плейлиста за активную полоску на их месте"
+  },
+  "settings_item_inj_watch_enhanced_topping_title" : {
+    "message" : "Скрыть верхнее меню и убрать нижний блок"
+  },
+  "settings_item_inj_watch_enhanced_topping_description" : {
+    "message" : "Прячет навигационное меню за слайдер и убирает нижний блок восвояси"
+  },
+  "settings_item_inj_watch_enhanced_sidebuttons_title" : {
+    "message" : "Добавить поэпизодную навигацию"
+  },
+  "settings_item_inj_watch_enhanced_sidebuttons_description" : {
+    "message" : "Создаёт по краям плеера кнопки для перемещения к следующей или предыдущей сериям"
+  },
+  "settings_item_inj_watch_enhanced_resize_title" : {
+    "message" : "Подогнать размеры плеера"
+  },
+  "settings_item_inj_watch_enhanced_resize_description" : {
+    "message" : "Использует эффективно доступное пространство на экране, чтобы расширить область воспроизведения"
+  },
+
+
+  "settings_item_inj_watch_playlists_title" : {
+    "message" : "Включить плейлисты и список избранных эпизодов"
+  },
+  "settings_item_inj_watch_playlists_description" : {
+    "message" : "Добавлять серии можно с главной страницы, страниц сериалов и из «Моих сериалов»"
+  },
+
+  "inj_watch_playlists_group_favorites" : {
+    "message" : "Избранное"
+  },
+  "inj_watch_playlists_group_watch_later" : {
+    "message" : "Посмотреть позже"
+  },
+  "inj_watch_playlists_append_to" : {
+    "message" : "Добавить в список «$pls$»",
+    "placeholders" : {
+      "pls" : { "content" : "$1" }
+    }
+  },
+  "inj_watch_playlists_remove_from" : {
+    "message" : "Удалить из списка «$pls$»",
+    "placeholders" : {
+      "pls" : { "content" : "$1" }
+    }
+  },
+
+  "settings_item_inj_watch_beforeclose_title" : {
+    "message" : "Включить предупреждение при закрытии вкладки и переходе со страницы воспроизведения"
+  },
+  "settings_item_inj_watch_beforeclose_description" : {
+    "message" : "Предотвращает случайное закрытие во время воспроизведения видео"
+  },
+  "inj_watch_beforeclose_message" : {
+    "message" : "Ну не сейчас же! Да и sini4ka не одобряет..."
+  },
+
+
+  "settings_item_inj_global_inviteless_title" : {
+    "message" : "Спрятать счётчик приглашений"
+  },
+  "settings_item_inj_global_inviteless_description" : {
+    "message" : "Убирает оранжевую бляшку с числом невыписанных приглашений, чтобы та не отвлекала"
+  },
+
+
+  "settings_item_inj_global_turbosearch_title" : {
+    "message" : "Встроить Турбопоиск"
+  },
+  "settings_item_inj_global_turbosearch_description" : {
+    "message" : "Предоставляет доступ к встраиваемым фунциям Турбопоиска, таким как поиск по сайту, загрузка собственных субтитров и других. Информация о регистрации доступна по адресу <a href='http://tfsearch.ru/register' target='_blank'>http://tfsearch.ru/register</a>"
+  },
+
+  "settings_item_inj_global_turbosearch_login_title" : {
+    "message" : "Имя пользователя"
+  },
+  "settings_item_inj_global_turbosearch_login_description" : {
+    "message" : "Совпадает с именем пользователя Турбофильм.тв"
+  },
+
+  "settings_item_inj_global_turbosearch_password_title" : {
+    "message" : "Пароль"
+  },
+  "settings_item_inj_global_turbosearch_password_description" : {
+    "message" : "Пароль может быть изменён на странице регистрации. В целях безопасности не рекомендуется использовать одинаковый пароль для обоих сайтов!"
+  },
+
+
+  "upload_title" : {
+    "message" : "Загрузка субтитров"
+  },
+  "upload_action_send" : {
+    "message" : "Загрузить"
+  },
+
+
+  "firsttime_title" : {
+    "message" : "Добро пожаловать в Режим кинотеатра!"
+  },
+  "firsttime_subtitle" : {
+    "message" : "Выбери для себя основные настройки (их можно подправить в любое время):"
+  },
+
+  "firsttime_restore" : {
+    "message" : "Ого, мы нашли твои старые настройки из предыдущей версии! Восстановить их? Внимание, не все настройки могут точно переложиться на новую версию. Но мы попытаемся :)"
+  },
+
+
+  "firsttime_action_choose" : {
+    "message" : "Применить выбранное"
+  },
+  "firsttime_action_gomanual" : {
+    "message" : "Перейти к странице настроек"
+  },
+
+
+  "firsttime_preset_watch_title" : {
+    "message" : "Я хочу просмотр"
+  },
+  "firsttime_preset_watch_bp1" : {
+    "message" : "Описание и комментарии больше не попадутся случайно на глаза"
+  },
+  "firsttime_preset_watch_bp2" : {
+    "message" : "Плеер уютно подтянется под размеры экрана"
+  },
+  "firsttime_preset_watch_bp3" : {
+    "message" : "Списки воспроизведения можно собирать по всему сайту"
+  },
+
+  "firsttime_preset_blogs_title" : {
+    "message" : "Я хочу блоги"
+  },
+  "firsttime_preset_blogs_bp1" : {
+    "message" : "Удобная навигация по комментариям"
+  },
+  "firsttime_preset_blogs_bp2" : {
+    "message" : "Расширенные возможности форматирования"
+  },
+  "firsttime_preset_blogs_bp3" : {
+    "message" : "Сообщения играют новыми красками, а спойлеры скрыты как никогда хорошо"
+  },
+
+  "firsttime_preset_turbosearch_title" : {
+    "message" : "Я хочу Турбопоиск"
+  },
+  "firsttime_preset_turbosearch_bp1" : {
+    "message" : "Поиск по Турбофильму с любой страницы"
+  },
+  "firsttime_preset_turbosearch_bp2" : {
+    "message" : "Управление своими субтитрами прямо из плеера"
+  },
+
+  "firsttime_preset_all_title" : {
+    "message" : "Я хочу всё"
+  },
+  "firsttime_preset_all_bp1" : {
+    "message" : "Всё, что написано выше"
+  },
+  "firsttime_preset_all_bp2" : {
+    "message" : "А кроме этого, множество мелких, и не очень, возможностей!"
+  }
+}

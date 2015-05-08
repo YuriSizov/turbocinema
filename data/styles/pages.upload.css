@@ -1,0 +1,13 @@
+html.turbopage > body {
+  padding-bottom:4px;
+  width:540px;
+  overflow:hidden;
+}
+html.turbopage div.everything {
+  width:530px;
+  margin: 0 5px;
+}
+
+.upload_progress {
+  display: none;
+}

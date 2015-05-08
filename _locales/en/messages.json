@@ -1,0 +1,575 @@
+{
+  "extension_name" : {
+   "message" : "Turbofilm Cinema Mode"
+  },
+  "extension_shortname" : {
+    "message" : "TCM"
+  },
+  "extension_description" : {
+    "message" : "Made for your pleasure! On today's list are user subtitles and playlists, enhanced blogging and notifications!"
+  },
+
+  "popup_button" : {
+    "message" : "Turbofilm — Quick Menu"
+  },
+  "popup_title" : {
+    "message" : "Menu"
+  },
+
+  "popup_icon_settings" : {
+    "message" : "Settings"
+  },
+  "popup_icon_feedback" : {
+    "message" : "Feedback and Support"
+  },
+  "popup_icon_lists" : {
+    "message" : "Playlists and favorites"
+  },
+
+  "popup_item_main_title" : {
+    "message" : "Main"
+  },
+  "popup_item_main_description" : {
+    "message" : "New series and episodes, a release calendar, a popularity rating"
+  },
+
+  "popup_item_series_title" : {
+    "message" : "Shows"
+  },
+  "popup_item_series_description" : {
+    "message" : "All available series"
+  },
+
+  "popup_item_blog_title" : {
+    "message" : "Shows Blogs"
+  },
+  "popup_item_blog_description" : {
+    "message" : "Posts about series, episode discussions"
+  },
+
+  "popup_item_tlog_title" : {
+    "message" : "Turboblog"
+  },
+  "popup_item_tlog_description" : {
+    "message" : "Posts about future developments, errors and off-topic"
+  },
+
+  "popup_item_my_title" : {
+    "message" : "Profile"
+  },
+  "popup_item_my_description" : {
+    "message" : "Account, balance and invitation management, your latest activity"
+  },
+
+  "popup_item_mymessages_title" : {
+    "message" : "My messages"
+  },
+  "popup_item_mymessages_description" : {
+    "message" : "Private messaging with other users"
+  },
+
+  "popup_item_myseries_title" : {
+    "message" : "My Shows"
+  },
+  "popup_item_myseries_description" : {
+    "message" : "Unseen episodes of favorite series"
+  },
+
+  "badge_unseen" : {
+    "message" : "Unseen episodes"
+  },
+  "badge_messages" : {
+    "message" : "Private messages"
+  },
+  "badge_days" : {
+    "message" : "Days left"
+  },
+
+  "notification_title" : {
+    "message" : "Turbofilm Cinema Mode"
+  },
+
+  "notification_unseen" : {
+    "message" : "Time to relax! You have not yet seen $amount$ $word$!",
+    "placeholders" : {
+      "amount" : { "content" : "$1" },
+      "word" : { "content" : "$2" }
+    }
+  },
+  "notification_unseen_words_1" : {
+    "message" : "episode"
+  },
+  "notification_unseen_words_2" : {
+    "message" : "episodes"
+  },
+  "notification_unseen_words_5" : {
+    "message" : "episodes"
+  },
+  "notification_unseen_button" : {
+    "message" : "Go to My Series"
+  },
+
+  "notification_messages" : {
+    "message" : "So, somebody wrote you $amount$ $word$. What are you going to do?",
+    "placeholders" : {
+      "amount" : { "content" : "$1" },
+      "word" : { "content" : "$2" }
+    }
+  },
+  "notification_messages_words_1" : {
+    "message" : "private message"
+  },
+  "notification_messages_words_2" : {
+    "message" : "private messages"
+  },
+  "notification_messages_words_5" : {
+    "message" : "private messages"
+  },
+  "notification_messages_button" : {
+    "message" : "Go to My Messages"
+  },
+
+  "notification_days" : {
+    "message" : "Watch out! You are running low — $amount$ $word$ left!",
+    "placeholders" : {
+      "amount" : { "content" : "$1" },
+      "word" : { "content" : "$2" }
+    }
+  },
+  "notification_days_words_1" : {
+    "message" : "day"
+  },
+  "notification_days_words_2" : {
+    "message" : "days"
+  },
+  "notification_days_words_5" : {
+    "message" : "days"
+  },
+  "notification_days_button" : {
+    "message" : "Go to profile"
+  },
+
+
+  "lists_title" : {
+    "message" : "Playlists and favorites"
+  },
+
+  "lists_update_success_status" : {
+    "message" : "Playlist updated!"
+  },
+  "lists_update_failure_status" : {
+    "message" : "Playlist update failed!"
+  },
+
+  "lists_destroy_success_status" : {
+    "message" : "Playlist deleted!"
+  },
+  "lists_destroy_failure_status" : {
+    "message" : "Playlist deletion failed!"
+  },
+
+  "lists_action_create" : {
+    "message" : "Create new playlist"
+  },
+  "lists_action_create_prompt" : {
+    "message" : "New playlist name"
+  },
+
+  "lists_action_create_success_status" : {
+    "message" : "Playlist created!"
+  },
+  "lists_action_create_failure_status" : {
+    "message" : "Playlist creation failed!"
+  },
+
+  "lists_failure_reason_101" : {
+    "message" : "Insufficient data"
+  },
+  "lists_failure_reason_102" : {
+    "message" : "Playlist does not exist"
+  },
+  "lists_failure_reason_103" : {
+    "message" : "Playlist already exists"
+  },
+  "lists_failure_reason_104" : {
+    "message" : "Malformed episode data"
+  },
+  "lists_failure_reason_105" : {
+    "message" : "Cannot destroy basic playlist"
+  },
+  "lists_failure_reason_106" : {
+    "message" : "Already in playlist"
+  },
+  "lists_failure_reason_107" : {
+    "message" : "Not in playlist"
+  },
+  "lists_failure_reason_108" : {
+    "message" : "Playlist is full (10 episodes max)"
+  },
+
+  "lists_playlist_empty" : {
+    "message" : "Empty space of Nothingness"
+  },
+
+  "lists_playlist_action_emptify" : {
+    "message" : "Clear the list"
+  },
+  "lists_playlist_action_emptify_confirm" : {
+    "message" : "Sure about that?"
+  },
+  "lists_playlist_action_destroy" : {
+    "message" : "Delete playlist"
+  },
+  "lists_playlist_action_destroy_confirm" : {
+    "message" : "Sure about that?"
+  },
+
+  "lists_context_create" : {
+    "message" : "Create new..."
+  },
+  "lists_context_create_title" : {
+    "message" : "Create new playlist and add this episode"
+  },
+
+
+  "settings_title" : {
+    "message" : "Settings"
+  },
+
+  "settings_action_save" : {
+    "message" : "Save"
+  },
+  "settings_action_restore" : {
+    "message" : "Restore defaults"
+  },
+  "settings_action_save_status" : {
+    "message" : "Settings saved!"
+  },
+  "settings_action_restore_status" : {
+    "message" : "Settings restored!"
+  },
+
+  "settings_group_extension_title" : {
+    "message" : "Extension"
+  },
+  "settings_group_watch_title" : {
+    "message" : "Playback & Viewing"
+  },
+  "settings_group_blog_title" : {
+    "message" : "Blog"
+  },
+  "settings_group_turbosearch_title" : {
+    "message" : "Turbosearch"
+  },
+  "settings_group_utils_title" : {
+    "message" : "Miscellaneous"
+  },
+
+
+  "settings_item_popup_enabled_title" : {
+    "message" : "Show Turbomenu, otherwise go to Turbik.tv"
+  },
+  "settings_item_popup_enabled_description" : {
+    "message" : "Choose preferable action to be executed when the badge is clicked. Applied immediately"
+  },
+
+  "settings_item_checker_enabled_title" : {
+    "message" : "Periodically request an amount of unseen episodes, private messages, etc."
+  },
+  "settings_item_checker_enabled_description" : {
+    "message" : "Increases internet traffic expenses. Applied immediately"
+  },
+
+  "settings_item_checker_updateInterval_title" : {
+    "message" : "Frequency of checks (minutes)"
+  },
+  "settings_item_checker_updateInterval_description" : {
+    "message" : "Can be set from 1 minute up to 60 hours"
+  },
+
+  "settings_item_checker_showCounter_title" : {
+    "message" : "Counters on badge"
+  },
+  "settings_item_checker_showCounter_description" : {
+    "message" : "Counters, displayed over the badge"
+  },
+  "settings_item_checker_showCounter_unseen_title" : {
+    "message" : "Amount of unseen episodes (green)"
+  },
+  "settings_item_checker_showCounter_messages_title" : {
+    "message" : "Unread private messages (yellow)"
+  },
+  "settings_item_checker_showCounter_days_title" : {
+    "message" : "Critical amount of days left (red)"
+  },
+
+  "settings_item_checker_showNotification_title" : {
+    "message" : "Desktop notifications"
+  },
+  "settings_item_checker_showNotification_description" : {
+    "message" : "Notifications, informing about changes in counters"
+  },
+  "settings_item_checker_showNotification_unseen_title" : {
+    "message" : "Amount of unseen episodes"
+  },
+  "settings_item_checker_showNotification_messages_title" : {
+    "message" : "Unread private messages"
+  },
+  "settings_item_checker_showNotification_days_title" : {
+    "message" : "Critical amount of days left"
+  },
+
+  "settings_item_checker_daysThreshold_title" : {
+    "message" : "Threshold value for days counter"
+  },
+  "settings_item_checker_daysThreshold_description" : {
+    "message" : "Can be set from 1 up to 365 days"
+  },
+
+  "settings_item_inj_index_hideUnfavorable_title" : {
+    "message" : "Highlight favorite series in the future episodes calendar"
+  },
+  "settings_item_inj_index_hideUnfavorable_description" : {
+    "message" : "Page reload is required"
+  },
+
+  "settings_item_inj_myseries_futureReleases_title" : {
+    "message" : "Add favorite series from the future episodes calendar to My Series"
+  },
+  "settings_item_inj_myseries_futureReleases_description" : {
+    "message" : "Page reload is required"
+  },
+
+  "settings_item_inj_allseries_info_title" : {
+    "message" : "Provide additional info for series on All Series"
+  },
+  "settings_item_inj_allseries_info_description" : {
+    "message" : "Page reload is required"
+  },
+
+  "settings_item_inj_blog_enhanced_title" : {
+    "message" : "Enable blog enhancements"
+  },
+  "settings_item_inj_blog_enhanced_description" : {
+    "message" : "Allows to navigate and compose messages with style in Series Blog, Turboblog and My Messages"
+  },
+  "settings_item_inj_blog_enhanced_navigation_title" : {
+    "message" : "Commentary navigation"
+  },
+  "settings_item_inj_blog_enhanced_navigation_description" : {
+    "message" : "Creates navigation bar for quick commentary selection"
+  },
+  "settings_item_inj_blog_enhanced_formatting_title" : {
+    "message" : "Formatting"
+  },
+  "settings_item_inj_blog_enhanced_formatting_description" : {
+    "message" : "Applies formatting to comments, including hyperlinks, images, and BB-codes"
+  },
+  "settings_item_inj_blog_enhanced_editor_title" : {
+    "message" : "Editor"
+  },
+  "settings_item_inj_blog_enhanced_editor_description" : {
+    "message" : "Enhances new commentary creation"
+  },
+
+
+  "inj_blogpost_nav_all_title" : {
+    "message" : "Total"
+  },
+  "inj_blogpost_nav_my_title" : {
+    "message" : "My"
+  },
+  "inj_blogpost_nav_new_title" : {
+    "message" : "New"
+  },
+  "inj_blogpost_nav_god_title" : {
+    "message" : "Rare"
+  },
+
+
+  "settings_item_inj_watch_enhanced_title" : {
+    "message" : "Enable player enhancements"
+  },
+  "settings_item_inj_watch_enhanced_description" : {
+    "message" : "Allows better viewing, custom subtitles support, usage of playlists and much more"
+  },
+
+  "settings_item_inj_watch_enhanced_hide_description_title" : {
+    "message" : "Hide description"
+  },
+  "settings_item_inj_watch_enhanced_hide_description_description" : {
+    "message" : "Hides episode description from under the player, can be opened from upper-right menu"
+  },
+  "settings_item_inj_watch_enhanced_hide_comments_title" : {
+    "message" : "Hide commentaries"
+  },
+  "settings_item_inj_watch_enhanced_hide_comments_description" : {
+    "message" : "Hides user commentaries from under the player, can be opened from upper-right menu"
+  },
+  "settings_item_inj_watch_enhanced_hide_eplist_title" : {
+    "message" : "Hide episode list"
+  },
+  "settings_item_inj_watch_enhanced_hide_eplist_description" : {
+    "message" : "Hides season or playlist episodes, can be opened via active bar on their place"
+  },
+  "settings_item_inj_watch_enhanced_topping_title" : {
+    "message" : "Hide top menu and remove footer"
+  },
+  "settings_item_inj_watch_enhanced_topping_description" : {
+    "message" : "Hides main navigation menu behind a slider and removes footer totally"
+  },
+  "settings_item_inj_watch_enhanced_sidebuttons_title" : {
+    "message" : "Add episode navigation"
+  },
+  "settings_item_inj_watch_enhanced_sidebuttons_description" : {
+    "message" : "Creates buttons on the sides of player that link to the previous and the next episodes"
+  },
+  "settings_item_inj_watch_enhanced_resize_title" : {
+    "message" : "Resize player"
+  },
+  "settings_item_inj_watch_enhanced_resize_description" : {
+    "message" : "Uses screen space effectively to provide bigger viewving area"
+  },
+
+
+  "settings_item_inj_watch_playlists_title" : {
+    "message" : "Enable favorite series and user playlists"
+  },
+  "settings_item_inj_watch_playlists_description" : {
+    "message" : "Playlists can be gathered from index page, My Series and individual series pages"
+  },
+
+  "inj_watch_playlists_group_favorites" : {
+    "message" : "Favorites"
+  },
+  "inj_watch_playlists_group_watch_later" : {
+    "message" : "Watch Later"
+  },
+  "inj_watch_playlists_append_to" : {
+    "message" : "Add to $pls$",
+    "placeholders" : {
+      "pls" : { "content" : "$1" }
+    }
+  },
+  "inj_watch_playlists_remove_from" : {
+    "message" : "Remove from $pls$",
+    "placeholders" : {
+      "pls" : { "content" : "$1" }
+    }
+  },
+
+  "settings_item_inj_watch_beforeclose_title" : {
+    "message" : "Enable warning when you close or navigate away from Watch page"
+  },
+  "settings_item_inj_watch_beforeclose_description" : {
+    "message" : "Prevents accidental closing when a video is still playing"
+  },
+  "inj_watch_beforeclose_message" : {
+    "message" : "Hey, I'm still watching that!"
+  },
+
+
+  "settings_item_inj_global_inviteless_title" : {
+    "message" : "Hide invite counter from header of all pages"
+  },
+  "settings_item_inj_global_inviteless_description" : {
+    "message" : "Removes orange badge over an avatar image so it doesn't steal all attension"
+  },
+
+
+  "settings_item_inj_global_turbosearch_title" : {
+    "message" : "Integrate with Turbosearch"
+  },
+  "settings_item_inj_global_turbosearch_description" : {
+    "message" : "Provides integrated features available for Turbosearch users. Such as on-site search, custom subtitle upload and more. Registration guide is available at <a href='http://tfsearch.ru/register' target='_blank'>http://tfsearch.ru/register</a>"
+  },
+
+  "settings_item_inj_global_turbosearch_login_title" : {
+    "message" : "Username"
+  },
+  "settings_item_inj_global_turbosearch_login_description" : {
+    "message" : "Same as Turbofilm username"
+  },
+
+  "settings_item_inj_global_turbosearch_password_title" : {
+    "message" : "Password"
+  },
+  "settings_item_inj_global_turbosearch_password_description" : {
+    "message" : "You can reset your password at the registration page. For safery reasons do not use the same password for both sites!"
+  },
+
+
+  "upload_title" : {
+    "message" : "Subtitle upload"
+  },
+  "upload_action_send" : {
+    "message" : "Send"
+  },
+
+
+  "firsttime_title" : {
+    "message" : "Welcome to Cinema Mode!"
+  },
+  "firsttime_subtitle" : {
+    "message" : "Choose your basic settings (you can tune them later):"
+  },
+
+  "firsttime_restore" : {
+    "message" : "Oh, we have found your older settings from previous version! Would you like to restore them now? Note, that not all the settings may translate exactly to the newer version. We'll try our best, though :)"
+  },
+
+
+  "firsttime_action_choose" : {
+    "message" : "Apply selected"
+  },
+  "firsttime_action_gomanual" : {
+    "message" : "Go to settings page"
+  },
+
+
+  "firsttime_preset_watch_title" : {
+    "message" : "I want playback"
+  },
+  "firsttime_preset_watch_bp1" : {
+    "message" : "Commentaries and episode description won't catch your eye unintended"
+  },
+  "firsttime_preset_watch_bp2" : {
+    "message" : "Video player will fit exactly to your dimensions"
+  },
+  "firsttime_preset_watch_bp3" : {
+    "message" : "You can collect playlists all around the site"
+  },
+
+  "firsttime_preset_blogs_title" : {
+    "message" : "I want blogs"
+  },
+  "firsttime_preset_blogs_bp1" : {
+    "message" : "Intuitive commentary navigation"
+  },
+  "firsttime_preset_blogs_bp2" : {
+    "message" : "Extended formatting options"
+  },
+  "firsttime_preset_blogs_bp3" : {
+    "message" : "Messages are useful and beautiful, and spoilers are hidden well"
+  },
+
+  "firsttime_preset_turbosearch_title" : {
+    "message" : "I want Turbosearch"
+  },
+  "firsttime_preset_turbosearch_bp1" : {
+    "message" : "Internal search engine is integrated on every page"
+  },
+  "firsttime_preset_turbosearch_bp2" : {
+    "message" : "Control your own subtitles from videoplayer"
+  },
+
+  "firsttime_preset_all_title" : {
+    "message" : "I want all"
+  },
+  "firsttime_preset_all_bp1" : {
+    "message" : "All of the above"
+  },
+  "firsttime_preset_all_bp2" : {
+    "message" : "And many more of small, and some medium, features!"
+  }
+}

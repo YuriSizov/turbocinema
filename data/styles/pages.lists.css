@@ -1,0 +1,177 @@
+html.turbopage {
+  height: 100%
+}
+
+html.turbopage > body {
+  padding: 0;
+}
+
+
+html.turbopage .playlist_block {
+  width: 100%;
+}
+html.turbopage .playlist_block::after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+
+html.turbopage .playlist_block > .playlist_block_top {
+  margin: 5px 0;
+  height: 30px;
+  width: 100%;
+}
+html.turbopage .playlist_block > .playlist_block_top > .playlist_ico {
+  border-radius: 4px;
+  float: left;
+  vertical-align: middle;
+}
+html.turbopage .playlist_block > .playlist_block_top > .playlist_title {
+  color: #e0e0e0;
+  font-size: 18px;
+  float: left;
+  margin-top: 3px;
+  margin-left: 8px;
+}
+
+html.turbopage .playlist_block > .playlist_eps {
+  width: 100%;
+}
+html.turbopage .playlist_block > .playlist_eps::after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+
+html.turbopage .playlist_block > .playlist_actions {
+  margin: 5px 0 10px 0;
+  height: 20px;
+  width: 100%;
+}
+
+html.turbopage .playlist_block > .playlist_actions > .playlist_action {
+  border-bottom: 1px dashed #989898;
+  color: #989898;
+  cursor: pointer;
+  float: right;
+  height: 20px;
+  margin-left: 16px;
+}
+html.turbopage .playlist_block > .playlist_actions > .playlist_action:hover {
+  border-bottom: 1px dashed #555555;
+}
+
+
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block {
+  float: left;
+  position: relative;
+  height: 167px;
+  width: 295px;
+  margin: 5px 5px;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block:nth-child(3n + 1) {
+  clear: both;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block:nth-child(3n - 1) {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link {
+  display: block;
+  padding: 0;
+}
+
+
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_image {
+  height: 167px;
+  width: 295px;
+  overflow: hidden;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_image > img {
+  width: 295px;
+}
+
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_overtext {
+  background-color: rgba(43, 43, 43, 0.75);
+  position: absolute;
+  left: 0;
+  padding: 0 0 0 7px;
+  width: 288px;
+  z-index: 2;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_overtext.playlist_episode_block_top {
+  height: 40px;
+  top: 0;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_overtext.playlist_episode_block_bottom{
+  height: 21px;
+  bottom: 0;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block:hover > .playlist_episode_link > .playlist_episode_block_overtext {
+  background-color: rgba(18, 18, 18, 0.75);
+}
+
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_top > .playlist_episode_title_en {
+  color: #a1b15a;
+  font-size: 16px;
+  height: 20px;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_top > .playlist_episode_title_ru {
+  color: #d4d4d4;
+  font-size: 14px;
+  height: 14px;
+}
+
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_bottom > .playlist_episode_text {
+  color: #b6b6b6;
+  font-size: 12px;
+  float: left;
+  height: 16px;
+  margin: 2px 15px 0 0;
+}
+
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_bottom > .playlist_episode_infoicon {
+  float: left;
+  margin: 4px 0 0 5px;
+  height: 13px;
+  width: 23px;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_bottom > .playlist_episode_infoicon.infoicon_hq{
+  background: url(../imgs/turbofilm/serieshq.png) 0 0 no-repeat;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_bottom > .playlist_episode_infoicon.infoicon_rsound{
+  background: url(../imgs/turbofilm/seriesrsound.png) 0 0 no-repeat;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_bottom > .playlist_episode_infoicon.infoicon_esound{
+  background: url(../imgs/turbofilm/seriesesound.png) 0 0 no-repeat;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_bottom > .playlist_episode_infoicon.infoicon_rsub{
+  background: url(../imgs/turbofilm/seriesrsub.png) 0 0 no-repeat;
+}
+html.turbopage .playlist_block > .playlist_eps > .playlist_episode_block > .playlist_episode_link > .playlist_episode_block_bottom > .playlist_episode_infoicon.infoicon_esub{
+  background: url(../imgs/turbofilm/seriesesub.png) 0 0 no-repeat;
+}
+
+
+.playlist_button {
+  cursor: pointer;
+  opacity: 0.45;
+  position: absolute;
+  height: 16px;
+  width: 16px;
+}
+.playlist_button:hover {
+  opacity: 1.0;
+}
+.playlist_button.playlist_button_lists {
+  right: 3px;
+  top: 4px;
+  z-index: 5;
+}
+.playlist_button.playlist_button_remove {
+  background-image: url(../imgs/imageset/ico.minus.png);
+  background-repeat: no-repeat;
+}

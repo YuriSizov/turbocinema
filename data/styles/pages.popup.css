@@ -1,0 +1,41 @@
+html.turbopage > body {
+  padding-bottom:4px;
+  width:460px;
+  overflow:hidden;
+}
+html.turbopage div.everything {
+  width:450px;
+  margin: 0 5px;
+}
+
+html.turbopage div.everything div.content {
+  margin: 0;
+}
+
+html.turbopage div.everything div.content h1 span.itsettings,
+html.turbopage div.everything div.content h1 span.itfeedback,
+html.turbopage div.everything div.content h1 span.itlists {
+  background-position: 100% 0%;
+  color: #9D999D;
+  cursor: pointer;
+  display: block;
+  float:right;
+  width: 18px;
+  height: 18px;
+}
+
+html.turbopage div.everything div.content h1 span.itsettings {
+  background-image: url('../imgs/imageset/ico.settings.png');
+}
+html.turbopage div.everything div.content h1 span.itfeedback{
+  background-image: url('../imgs/imageset/ico.feedback.png');
+}
+html.turbopage div.everything div.content h1 span.itlists {
+  background-image: url('../imgs/imageset/ico.lists.png');
+}
+
+html.turbopage div.everything div.content h1 span.itsettings:hover,
+html.turbopage div.everything div.content h1 span.itfeedback:hover,
+html.turbopage div.everything div.content h1 span.itlists:hover {
+  background-position: 0% 0%;
+}
